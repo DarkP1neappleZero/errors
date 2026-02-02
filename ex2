@@ -1,0 +1,5 @@
+n = int(input())
+first = n
+while first >= 10:
+    first //= 10
+print(first)
