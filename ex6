@@ -1,0 +1,12 @@
+s = input()
+
+while len(s) <= 10:
+     if len(s) % 4 == 0:
+         s = s + "X"
+     elif len(s) % 5 == 0:
+         s = s + "Y"
+     else:
+         s = "Z" + s
+
+s = "@" + s
+print(s)
